@@ -1,0 +1,190 @@
+/* --- Estilo Geral --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    background-color: #f0f2f5;
+    color: #495057;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #555;
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* --- Seções e Contêineres --- */
+.forms {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.search-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Formulários de Cadastro e Associações --- */
+#carroForm,
+#pessoaForm,
+#associacaoForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    align-items: center;
+}
+
+input, select {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    color: #495057;
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+input:focus, select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.25);
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Lista --- */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+li div:first-child {
+    flex-grow: 1;
+    padding-right: 1rem;
+}
+
+/* --- Botões de Ação --- */
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.actions button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    background-color: #e9ecef;
+    color: #495057;
+    border: none;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.actions button:hover {
+    background-color: #ced4da;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Cores específicas para botões de ação */
+.actions button:first-child {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.actions button:first-child:hover {
+    background-color: #229954;
+}
+
+.actions button:last-child {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.actions button:last-child:hover {
+    background-color: #c0392b;
+}
+
+/* Estilo para a tela de associações */
+.forms h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}

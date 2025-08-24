@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Associações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Associações Pessoa ↔ Carro</h1>
+    <a href="index.html">Voltar para a página inicial</a>
+
+    <div class="forms">
+        <form id="associacaoForm">
+            <h3>Associar Pessoa a Carro</h3>
+            <select id="pessoaSelect" required></select>
+            <select id="carroSelect" required></select>
+            <button type="submit">Associar</button>
+        </form>
+    </div>
+
+    <h2>Associações Existentes</h2>
+    <ul id="associacaoList"></ul>
+    <script src="associacaoScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gerenciador de Carros</h1>
+    <a href="index.html">Voltar para a página inicial</a>
+
+    <div class="search-container">
+        <input type="number" id="searchInput" placeholder="Buscar por ID">
+        <button id="searchButton">Buscar</button>
+    </div>
+
+    <form id="carroForm">
+        <input type="text" id="marca" placeholder="Marca" required>
+        <input type="text" id="modelo" placeholder="Modelo" required>
+        <input type="number" id="ano" placeholder="Ano" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="carroList"></ul>
+
+    <script src="carroScript.js"></script>
+</body>
+
+</html>

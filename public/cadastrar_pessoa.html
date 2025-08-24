@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Pessoas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gerenciador de Pessoas</h1>
+    <a href="index.html">Voltar para a página inicial</a>
+
+    <div class="search-container">
+        <input type="number" id="searchInput" placeholder="Buscar por ID">
+        <button id="searchButton">Buscar</button>
+    </div>
+
+    <form id="pessoaForm">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="pessoaList"></ul>
+
+    <script src="pessoaScript.js"></script>
+</body>
+
+</html>
